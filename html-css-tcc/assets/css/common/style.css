@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: #FFFFFF;
+}
+
+.boxfooter{
+    display: flex;
+    height: 187px;
+    width: 100%;
+    top: 1451px;
+    background-color: #FFFFFF;
+}
+
+.banner{
+    height: 629px;
+    width: 100%;
+    margin-top: 80px;
+    background-color: #515070;
+    opacity: 0.8;
+}
+
+.titulobanner{
+    position: absolute;
+    width: 559px;
+    height: 59px;
+    left: 73px;
+    top: 294px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    justify-content: flex-start;
+    color: #FFFFFF
+}
+
+.textbanner{
+    position: absolute;
+    width: 424px;
+    height: 50px;
+    left: 73px;
+    top: 372px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.botao{
+    position: absolute;
+    width: 165px;
+    height: 60px;
+    left: 73px;
+    top: 436px;
+    background: #FF8E6E;
+    border-radius: 3px;
+}
+
+.textbotao{
+    /* SAIBA MAIS */
+    position: absolute;
+    padding: 20px;
+    width: 140px;
+    height: 17px;
+    left: 86px;
+    top: 438px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.boxsobre{
+    display: flex;
+    height: 688px;
+    width: 100%;
+    top: 709px;
+    background-color: #FFFFFF;
+}
+
+.text2{
+    /* A Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fuga delectus aperiam molestiae magni optio asperiores esse, commodi totam temporibus dignissimos perferendis ullam mollitia ex obcaecati, incidunt consectetur. Porro, nemo! */
+    position: absolute;
+    width: 465px;
+    height: 134px;
+    left: 73px;
+    top: 1009px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+}
+
+.stick{
+    position: absolute;
+    height: 325px;
+    width: 464px;
+    left: 809px;
+    top: 913px;
+}
+
+.boxdepoimento{
+    display: flex;
+    height: 688px;
+    width: 100%;
+    top: 2026px;
+    background-color: #F6F6F6;
+}
+
+.boxpessoadepo{
+    position: absolute;
+    height: 217px;
+    width: 580px;
+    left: 73px;
+    top: 2386px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 34px rgba(8, 53, 120, 0.05);
+    border-radius: 3px;
+}
+
+.fotoboxdepo{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.nomeboxdepo{
+    /* Aline Millman dos Santos */
+    position: absolute;
+    height: 22px;
+    width: 244px;
+    margin-left: 120px;
+    margin-top: 41px;
+    border-radius: nullpx;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #515070;
+}
+
+.databoxdepo{
+    /* 02/12/2017 */
+    position: absolute;
+    height: 13px;
+    width: 105px;
+    margin-left: 119px;
+    margin-top: 66px;
+    border-radius: nullpx;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF8E6E;
+}
+
+.textboxdepo{
+    /* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fuga delectus aperiam molestiae magni optio asperiores esse, commodi totam temporibus dignissimos. */
+    position: absolute;
+    height: 88px;
+    width: 466px;
+    margin-left: 20px;
+    margin-top: 110px;
+    border-radius: nullpx;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+}
+
+.boxfuncionalidade{
+    display: flex;
+    height: 688px;
+    width: 100%;
+    top: 2714px;
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+}
+
+.boxfaleconosco{
+    display: flex;
+    height: 688px;
+    width: 100%;
+    top: 3402px;
+    background-color: #F6F6F6;
+}
+
+.celular{
+    position: absolute;
+    width: 332px;
+    height: 510px;
+    left: 506px;
+    top: 2972px;
+}
+
+.imgcwi{
+    position: absolute;
+    width: 263px;
+    height: 411px;
+    left: 540px;
+    top: 3070px;
+}
+
+.figurinha{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 93px;
+    margin-top: 250px;
+    border-radius: 0px;
+    color: #FF8E6E;
+}
+
+.titulofigura{
+    /* Lorem Ipsum dolor sit */
+    position: absolute;
+    height: 22px;
+    width: 208px;
+    margin-left: 163px;
+    margin-top: 226px;
+    border-radius: nullpx;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.textfigura{
+    /* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fuga delectus aperiam. */
+    position: absolute;
+    height: 66px;
+    width: 243px;
+    margin-left: 163px;
+    margin-top: 258px;
+    border-radius: nullpx;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}

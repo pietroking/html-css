@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: #FFFFFF;
+}
+
+.boxfooter{
+    display: flex;
+    height: 187px;
+    width: 100%;
+    top: 1091px;
+    background-color: #FFFFFF;
+}
+
+.banner{
+    height: 456px;
+    width: 100%;
+    margin-top: 80px;
+    background-color: #515070;
+    opacity: 0.8;
+}
+
+.titulobanner{
+    position: absolute;
+    width: 559px;
+    height: 59px;
+    left: 73px;
+    top: 247px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    justify-content: flex-start;
+    color: #FFFFFF
+}
+
+.textbanner{
+    position: absolute;
+    width: 424px;
+    height: 50px;
+    left: 73px;
+    top: 325px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.botao{
+    position: absolute;
+    width: 165px;
+    height: 60px;
+    left: 653px;
+    top: 995px;
+    background: #515070;
+    border-radius: 3px;
+}
+
+.textbotao{
+    /* SAIBA MAIS */
+    position: absolute;
+    padding: 20px;
+    width: 140px;
+    height: 17px;
+    left: 685px;
+    top: 1000px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.subtitulo{
+    /* Envie-nos uma mensagem */
+    position: absolute;
+    width: 280px;
+    height: 24px;
+    left: 74px;
+    top: 572px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF8E6E;
+}
+
+.figurinha{
+    position: absolute;
+    height: 22px;
+    width: 48px;
+    left: 728px;
+    top: 573px;
+    border-radius: 0px;
+    color: #FF8E6E;
+}
+
+.boxinf{
+    position: absolute;
+    width: 441px;
+    height: 555px;
+    left: 832px;
+    top: 536px;
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.11);
+}
+
+.textboxinf{
+    /* Av. Theodomiro Porto da Fonseca, 3101 - Cristo Rei, São Leopoldo - RS, 93022-715 */
+    position: absolute;
+    height: 54px;
+    width: 211px;
+    left: 921px;
+    top: 721px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.textformu{
+    position: absolute;
+    /* Ramo em que atua */
+    width: 1346px;
+    height: 552px;
+    left: 74px;
+    top: 635px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #898989;
+}
+
+.selecione{
+    position: absolute;
+    width: 320px;
+    height: 19px;
+    left: 74px;
+    top: 781px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A9A9A9;
+}
+
+.assuntobotao{
+    position: absolute;
+    width: 245px;
+    height: 19px;
+    left: 454px;
+    top: 781px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #898989;
+}
+
+.linha{
+    /* Rectangle */
+position: absolute;
+height: 1px;
+width: 340px;
+left: 74px;
+top: 815px;
+border-radius: 0px;
+
+
+background: #FFFFFF;
+border: 1px solid #D7D7D7;
+box-sizing: border-box;
+
+}

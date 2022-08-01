@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: #FFFFFF;
+}
+
+.banner{
+    height: 456px;
+    width: 100%;
+    margin-top: 80px;
+    background-color: #515070;
+    opacity: 0.8;
+}
+
+.sobrenos{
+    position: absolute;
+    width: 256px;
+    height: 59px;
+    left: 73px;
+    top: 247px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    justify-content: flex-start;
+    margin-left: 1%;
+    color: #FFFFFF
+}
+
+.textbanner{
+    position: absolute;
+    width: 424px;
+    height: 50px;
+    left: 73px;
+    top: 325px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.boxtime{
+    display: flex;
+    height: 490px;
+    width: 100%;
+    margin-top: 536px;
+    background-color: #FFFFFF;
+}
+
+.nossotime{
+    position: absolute;
+    width: 291px;
+    height: 59px;
+    left: 73px;
+    margin-top: 44px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    justify-content: flex-start;
+    color: #515070;
+}
+
+.textbox{
+    position: absolute;
+    left: 73px;
+    margin-top: 102px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #515070;
+}
+
+.foto{
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    top: 709px;
+}
+
+.foto1{
+    position: absolute;
+    width: 257px;
+    height: 257px;
+    left: 73px;
+    top: 709px;
+    background-color: #515070;
+    opacity: 0.7;
+}
+
+.nomefoto{
+    /* Ellen da Silva */
+    position: absolute;
+    left: 87px;
+    top: 850px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.textfoto{
+    /* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fuga delectus aperiam. */
+    position: absolute;
+    width: 230px;
+    left: 87px;
+    top: 882px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.boxfim{
+    display: flex;
+    height: 425px;
+    width: 100%;
+    margin-top: 536px;
+    background-color: #F6F6F6;
+}
+
+.stick{
+    position: absolute;
+    height: 63px;
+    width: 55px;
+    margin-top: 125px;
+    background: #F6F6F6;
+}
+
+.sub{
+    position: absolute;
+    width: 245px;
+    height: 73px;
+    margin-top: 123px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    color: #515070;
+}
+
+.textsub{
+    /* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fuga delectus aperiam molestiae magni optio asperiores esse. */
+    position: absolute;
+    width: 336px;
+    height: 94px;
+    margin-top: 211px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+}
+
+.boxfooter{
+    display: flex;
+    height: 187px;
+    width: 100%;
+    top: 1451px;
+    background-color: #FFFFFF;
+}
